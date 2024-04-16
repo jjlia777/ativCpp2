@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
 #include <iostream>
 using namespace std;
 int main(int argc, char* argv[]) {
-	int num = -10;
+	int num = -25;
 	if (num >= 0) {
 		cout << "Numero Positivo";
 	}
@@ -82,8 +82,8 @@ a maior
 #include <iostream>
 using namespace std;
 int main(int argc, char* argv[]) {
-	int num1 = 10;
-	int num2 = 15;
+	int num1 = 5;
+	int num2 = 9;
 
 	if (num1 > num2) {
 		cout << "Numero " << num1 << " maior que " << num2;
@@ -111,7 +111,7 @@ mostre, se a média for maior ou igual a 7 mostre “Aprovado”, senão mostre
 using namespace std;
 int main(int argc, char* argv[]) {
 	double nota = 7.5;
-	double nota2 = 4;
+	double nota2 = 5;
 	double media = (nota + nota2) / 2;
 
 	if (media >= 7) {
